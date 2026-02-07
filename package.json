@@ -1,0 +1,24 @@
+{
+  "name": "jsds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luutanhung/jsds.git"
+  },
+  "keywords": ["algorithm", "javascript"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/luutanhung/jsds/issues"
+  },
+  "homepage": "https://github.com/luutanhung/jsds#readme",
+  "devDependencies": {
+    "vitest": "^4.0.18"
+  }
+}
