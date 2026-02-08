@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { bitmapSelect } from "../bitmap-selection";
+import { bitmapSelect } from "../bitmap-select";
 
 describe("bitmapSelect", () => {
 	// Test basic functionality with simple cases
