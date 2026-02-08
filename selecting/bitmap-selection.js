@@ -9,8 +9,14 @@
  * @returns {number|undefined} - The k-th smallest element in the subarray, or undefined if k is out of bounds
  * @throws {Error} - If duplicate values are found in the subarray
  */
-const bitmapSelect = (arr = [], k, from = 0, to = arr.length - 1) => {
+export const bitmapSelect = (arr = [], k, from = 0, to = arr.length - 1) => {
 	const copy = arr.slice(from, to + 1);
+
+	// Handle empty subarray case
+	if (copy.length === 0) {
+		return undefined;
+	}
+
 	const minVal = Math.min(...copy);
 	const maxVal = Math.max(...copy);
 	const bitmap = new Array(maxVal - minVal + 1).fill(false);

@@ -1,5 +1,5 @@
-import { describe, it, expect } from "vitest";
-import { maxProfit } from "../best_time_to_buy_and_sell_stock";
+import { describe, expect, it } from "vitest";
+import { maxProfit } from "../best-time-to-buy-and-sell-stock";
 
 describe("maxProfit - test cases", () => {
 	const testCases = [
