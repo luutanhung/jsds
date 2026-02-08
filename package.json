@@ -1,8 +1,8 @@
 {
   "name": "jsds",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Data structures and algorithms implemented in JavaScript",
+  "main": "README.md",
   "scripts": {
     "test": "vitest"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/luutanhung/jsds.git"
   },
   "keywords": ["algorithm", "javascript"],
-  "author": "",
+  "author": "luutanhung@gmail.com",
   "license": "ISC",
   "type": "module",
   "bugs": {
