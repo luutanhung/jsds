@@ -1,24 +1,36 @@
 {
-  "name": "jsds",
-  "version": "1.0.0",
-  "description": "Data structures and algorithms implemented in JavaScript",
-  "main": "README.md",
-  "scripts": {
-    "test": "vitest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luutanhung/jsds.git"
-  },
-  "keywords": ["algorithm", "javascript"],
-  "author": "luutanhung@gmail.com",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/luutanhung/jsds/issues"
-  },
-  "homepage": "https://github.com/luutanhung/jsds#readme",
-  "devDependencies": {
-    "vitest": "^4.0.18"
-  }
+	"name": "jsds",
+	"version": "1.0.0",
+	"description": "Data structures and algorithms implemented in JavaScript",
+	"main": "README.md",
+	"scripts": {
+		"test": "vitest",
+		"prepare": "husky"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/luutanhung/jsds.git"
+	},
+	"keywords": [
+		"algorithm",
+		"javascript"
+	],
+	"author": "luutanhung@gmail.com",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/luutanhung/jsds/issues"
+	},
+	"homepage": "https://github.com/luutanhung/jsds#readme",
+	"devDependencies": {
+		"@biomejs/biome": "2.3.14",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.7",
+		"vitest": "^4.0.18"
+	},
+	"lint-staged": {
+		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
+			"biome format --write --no-errors-on-unmatched ."
+		]
+	}
 }

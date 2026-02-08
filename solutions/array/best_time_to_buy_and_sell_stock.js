@@ -18,19 +18,19 @@
  * @param {number}
  */
 export const maxProfit = function (prices) {
-  const n = prices.length;
-  let l = 0,
-    r = 1,
-    profit = 0;
-  while (r < n) {
-    if (prices[l] >= prices[r]) {
-      l = r;
-      r += 1;
-    } else {
-      profit = Math.max(prices[r] - prices[l], profit);
-      r += 1;
-    }
-  }
+	const n = prices.length;
+	let l = 0,
+		r = 1,
+		profit = 0;
+	while (r < n) {
+		if (prices[l] >= prices[r]) {
+			l = r;
+			r += 1;
+		} else {
+			profit = Math.max(prices[r] - prices[l], profit);
+			r += 1;
+		}
+	}
 
-  return profit;
+	return profit;
 };
