@@ -1,0 +1,21 @@
+{
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Debug Current Vitest File",
+			"cwd": "${workspaceFolder}",
+			"runtimeExecutable": "node",
+			"runtimeArgs": [
+				"--inspect-brk",
+				"./node_modules/vitest/vitest.mjs",
+				"run",
+				"${relativeFile}"
+			],
+			"console": "integratedTerminal",
+			"internalConsoleOptions": "neverOpen",
+			"envFile": "${workspaceFolder}/.env",
+			"skipFiles": ["<node_internals>/**", "${workspaceFolder}/node_modules/**"]
+		}
+	]
+}
