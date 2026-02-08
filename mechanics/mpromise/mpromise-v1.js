@@ -1,13 +1,8 @@
-const MPromiseState = Object.freeze({
-	Pending: "PENDING",
-	Fulfilled: "Fulfilled",
-	Rejected: "Rejected",
-});
+import { MPromiseState } from "./mpromise-status";
 
-class MPromise {
+export class MPromiseV1 {
 	constructor(executorFunc) {
-		this.state = MPromiseState.Pending; // "pending" | "fulfilled" | "rejected"
-		this.value = undefined;
+		this.state = MPromiseState.Pending;
 		this.handlers = [];
 
 		const resolve = (val) => {
@@ -70,10 +65,3 @@ function test() {
 		}, 1000);
 	});
 }
-
-async function run() {
-	const result = await test();
-	console.log(result);
-}
-
-run();
