@@ -2,7 +2,6 @@
 
 # 🚀 JSDS — JavaScript Data Structures & Algorithms
 
-![License](https://img.shields.io/github/license/luutanhung/jsds?style=for-the-badge&color=blue)
 ![Version](https://img.shields.io/github/package-json/v/luutanhung/jsds?style=for-the-badge)
 ![Contributors](https://img.shields.io/github/contributors/luutanhung/jsds?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/luutanhung/jsds?style=for-the-badge)
