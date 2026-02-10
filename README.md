@@ -10,7 +10,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/thumbnail.png" alt="JavaScript Data Structures & Algorithms Thumbnail" width="600"/>
+  <img src="assets/thumbnail.jpg" alt="JavaScript Data Structures & Algorithms Thumbnail" width="400"/>
 </p>
 
 ## 📋 Table of Contents
