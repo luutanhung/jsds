@@ -29,8 +29,8 @@
 		"vitest": "^4.0.18"
 	},
 	"lint-staged": {
-		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
-			"biome format --write --no-errors-on-unmatched ."
+		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx}": [
+			"biome format --write --no-errors-on-unmatched"
 		]
 	}
 }

@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Debug Current Vitest File",
+    "command": "node",
+    "args": [
+      "--inspect-brk",
+      "./node_modules/vitest/vitest.mjs",
+      "run",
+      "$ZED_FILE",
+      "--threads=false",
+    ],
+    "cwd": "$ZED_WORKSPACE_ROOT",
+  },
+]
